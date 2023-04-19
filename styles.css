@@ -1,0 +1,52 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  margin-left: 8px;
+  flex-grow: 1;
+  flex-basis: 40%;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+ul {
+  display: flex;
+  gap: 18px;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+.signup {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  color: white;
+}
+
+.container1 {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 30px;
+}
+
+.container2 {
+  background-color: white;
+}
+
+.container3 {
+  background-color: #e5e7eb;
+}
+
+.container4 {
+}
