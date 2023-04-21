@@ -34,22 +34,26 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 28px;
 }
 .images {
   display: flex;
   gap: 40px;
+}
+.tinybox {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 14px;
+  align-items: center;
+  max-width: min-content;
+  text-align: center;
 }
 .littleimg {
   border: 2px solid black;
   height: 100px;
   width: 100px;
 }
-.underimage {
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-  gap: 140px;
-}
+
 .quote {
   font-size: larger;
 }
